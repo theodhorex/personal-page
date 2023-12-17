@@ -1,0 +1,42 @@
+html {
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 3% 5%;
+}
+
+.imageContainer {
+    width: 45vh;
+    height: 45vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profileImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5%;
+}
+
+.row {
+    display: flex;
+}
+
+.row .col {
+    padding: 1.5%;
+}
+
+ul li{
+    padding: 1.5% 0;
+}
+
+.footer {
+    background-color: rgb(206, 206, 206);
+    width: 100%;
+    padding: 1.5% 0;
+    text-align: center;
+    font-size: 1.5vh;
+}
